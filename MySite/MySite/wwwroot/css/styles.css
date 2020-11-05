@@ -43,7 +43,7 @@
 }
 
 #textSpecial {
-    color: #c2af89;
+    color: #a37800;
 }
 
 html {
@@ -156,13 +156,13 @@ sup {
 }
 
 a {
-  color: #c2af89;
-  text-decoration: none;
-  background-color: transparent;
+    color: #a37800;
+    text-decoration: none;
+    background-color: transparent;
 }
 a:hover {
-  color: #a88d57;
-  text-decoration: underline;
+    color: #a37800;
+    text-decoration: underline;
 }
 
 a:not([href]) {
@@ -9973,13 +9973,13 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #c2af89;
+    color: #a37800;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #c2af89;
+    color: #a37800;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -9999,14 +9999,14 @@ h3 {
   #mainNav .navbar-nav {
     margin-top: 0;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #c2af89;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    background: #a37800;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #c2af89;
-  }
+    background: #a37800;
+}
 
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10170,15 +10170,15 @@ form .row:first-child .floating-label-form-group {
 }
 
 .icon-contact {
-  display: flex;
-  height: 5rem;
-  width: 5rem;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  background-color: #c2af89;
-  color: #fff;
-  border-radius: 100%;
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #a37800;
+    border-radius: 100%;
+    color: #fff;
 }
 
 .navbar-brand img {
