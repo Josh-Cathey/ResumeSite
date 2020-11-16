@@ -30,10 +30,10 @@
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">EXPERIENCE</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">SKILLS</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PROJECTS</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PROJECTS</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">SKILLS</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">EDUCATION</a>
@@ -104,39 +104,447 @@
                     <h3 class="mb-0">Full-Stack Web Developer Intern</h3>
                     <div class="masthead-subheading mb-3">Oregon Criminal Defense Lawyers Association (June 2020 - Present)</div>
                     <ul>
-                        <li>Worked in a team to build and launch new features for the OCDLA responsive web app</li>
-                        <li>Built and implemented a custom OCDLA themed Google Map to display different layers of data</li>
-                        <li> Learned many new concepts and technologies to implement new features</li>
-                        <li>Languages Used: HTML/CSS, JavaScript, PHP, Apex, SQL</li>
-                        <li>Technologies Used: Google API's, Bootstrap</li>
+                        <li>Built and deployed a Google Maps Web API feature for the <a target="_blank" href="https://ocdla.app/maps">OCDLA responsive web app</a>.</li>
+                        <li>Designed the Google Maps feature for the client's brand, using the client's themes, colors, and logos.</li>
+                        <li>
+                            Enhanced interactive features for staff and members allowing them to explore by zoom level, 
+                            click on custom marker icons to view member and courthouse information, giving the customer 
+                            full control of what feature they want to see on the map. 
+                        </li>
+                        <li>Utilized SOQL to query the external Salesforce database to get membership and geolocation data.</li>
+                        <li>Organized Member, Marker, and MapApplication classes using JavaScript.</li>
+                        <li>Applied JavaScript Fetch to integrate Salesforce data into the feature.</li>
+                        <li>Implemented a configuration system allowing developers to change marker icons, map themes, and start locations. </li>
                     </ul>
 
                     <h3 class="mb-0">Software Engineer</h3>
                     <div class="masthead-subheading mb-3">Freelance - Lane Community College Capstone (March 2020 - June 2020)</div>
                     <ul>
-                        <li>Worked in a team to build an e-commerce website for Direct Kick Soccer Shop using ASP.NET</li>
-                        <li>Resolved complex technical design issues</li>
+                        <li>
+                            Engineered an eCommerce Web App for Direct Kick Soccer Shop administering the ability for local groups to 
+                            create and advertise custom printed jerseys, work attire, merchandise, and other custom printed clothing 
+                            through their very own team page.
+                        </li>
+                        <li>Utilized a Model-View-Controller design pattern for a faster development process.</li>
+                        <li>Applied ASP.Net Core Identity for account creation and custom role management in .NET Core 3.1.</li>
+                        <li>Created Cart, Order, Product, Team, and User classes using C#.</li>
+                        <li>Employed Entity Framework for relational database management of products, carts, users, and teams.</li>
+                        <li>Queried SQL Server Database using LINQ to manage products, user accounts, team accounts, and user carts.</li>
                     </ul>
 
-                    <h3 class="mb-0">Owner-Operator - General Manager</h3>
+                    <h3 class="mb-0">General Manager</h3>
                     <div class="masthead-subheading mb-3">Cafe Yumm! (July 2014 - August 2019)</div>
                     <ul>
-                        <li>Implemented new business strategies to improve customer relations, sales, and brand awareness</li>
-                        <li>Developed a team to meet an annual sales goal of over 2.5 million dollars</li>
-                        <li>Produced a staff trained to achieve eight consecutive years of 100% health inspection scores</li>
-                        <li>Helped dozens of team members meet professional goals within our businesses</li>
+                        <li>
+                            Implemented an interactive customer service training program, empowering employees to be personable, 
+                            and outgoing with every customer interaction.                       
+                        </li>
+                        <li>Developed a team to meet an annual sales goal of over 2.5 million dollars.</li>
+                        <li>
+                            Increased employee training to meet quality control, food storage, food rotation, and cleanliness standards, 
+                            resulting in eight consecutive years of 100% health inspection scores.
+                        </li>
+                        <li>	
+                            Pioneered an environment for employee growth that identified employee strengths and weaknesses, 
+                            guiding each employee to meet their personal goals within our stores. 
+                        </li>
                     </ul>
 
                     <h3 class="mb-0">Store Associate</h3>
                     <div class="masthead-subheading mb-3">Cafe Yumm! (February 2009 - July 2014)</div>
                     <ul>
-                        <li>Handled competing demands from managers and customers</li>
-                        <li>Demonstrated personable communication with customers to ensure positive relations</li>
+                        <li>Handled competing demands from managers and customers.</li>
+                        <li>Demonstrated personable communication with customers to ensure positive relations.</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <div class="text-center">
+                <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PROJECTS</h2>
+            </div>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="text-center"><h3 class="mb-0"><a target="_blank" href="https://github.com/Josh-Cathey/appserver-maps">OCDLA Map Feature</a></h3></div> <br />
+            <!-- OCDLA Project Area -->
+            <div class="row justify-content-center">
+                <!-- Portfolio Items-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="~/assets/img/portfolio/ocdlaMaps.PNG" alt="Custom OCDLA Themed Map" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="~/assets/img/portfolio/ocdlaMapTerrain.PNG" alt="Custom OCDLA Map Terrain Style" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="~/assets/img/portfolio/ocdlaMapMembers.PNG" alt="Custom OCDLA Member Icons" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="~/assets/img/portfolio/ocdlaMemberInfoWindow.PNG" alt="OCDLA Member Info Window" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="~/assets/img/portfolio/ocdlaMapCourts.PNG" alt="Custom OCDLA Circuit Court Icons" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="~/assets/img/portfolio/ocdlaCourtsInfoWindow.PNG" alt="OCDLA Circuit Court Info Window" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Description Area -->
+            <div class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <p class="mb-5">
+                                A Google map I developed for the Oregon Criminal Defense Lawyers Association as a Full-Stack Developer Intern.
+                                This map feature is styled using OCDLA colors and themes. I created custom marker icons that are used to display
+                                multiple layers of data to the user.  These different layers of data include membership data, courthouse data, locations of current OCDLA members, and
+                                circuit courts in Oregon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Languages and Technologies -->
+            <section class="skills">
+                <div class="container">
+                    <!-- Experience Grid Items-->
+                    <div class="row justify-content-center">
+                        <div class="flex-grow-0">
+                            <div class="masthead-subheading mb-3">Languages</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    PHP
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    JavaScript
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Apex
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    SOQL
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    HTML
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    CSS
+                                </li>
+                            </ul>
+                        </div><br />
+                        <div class="flex-grow-0" style="padding-left: 60px;">
+                            <div class="masthead-subheading mb-3">Technologies</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Google API's
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Salesforce
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Bootstrap
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section><br />
+
+            <!-- Project Live Link Area -->
+            <div class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <p><strong>See the live feature <a target="_blank" href="https://ocdla.app/maps">here</a>.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="text-center"><h3 class="mb-0"><a target="_blank" href="https://github.com/Josh-Cathey/SoccerFans">Soccer Fans Community Site</a></h3></div> <br />
+            <!-- Soccer Fans Project Area -->
+            <div class="row justify-content-center">
+                <!-- Portfolio Items-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/soccerFans.PNG" alt="A Site for Soccer Fans!" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/soccerFansLogin.PNG" alt="Soccer Fans Login" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/soccerFansAccountManager.PNG" alt="Soccer Fans Admin Account Manager" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/soccerFansVideos.PNG" alt="Soccer Fans Listed Videos" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/soccerFansComment.PNG" alt="Soccer Fans Comment Area" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/soccerFansForum.PNG" alt="Soccer Fans Forum Post Input" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Description Area -->
+            <div class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <p class="mb-5">
+                                A community soccer fan site I developed for the final of my Web Development 2: ASP.NET course at Lane Community College.
+                                Users can create an account, comment on popular videos, create forum posts for other users, comment on forum posts,
+                                as well as browse user profiles. The site has integrated roles for administrators and is using ASP.NET Identity for
+                                account management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Languages and Technologies -->
+            <section class="skills">
+                <div class="container">
+                    <!-- Experience Grid Items-->
+                    <div class="row justify-content-center">
+                        <div class="flex-grow-0">
+                            <div class="masthead-subheading mb-3">Languages</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    C#
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    JavaScript
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    SQL
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    HTML
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    CSS
+                                </li>
+                            </ul>
+                        </div><br />
+                        <div class="flex-grow-0" style="padding-left: 60px;">
+                            <div class="masthead-subheading mb-3">Technologies</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    ASP.NET Core 3.1
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    ASP.NET Core Identity
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Entity Framework
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    LINQ
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Blazor
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Dependency Injection
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Bootstrap
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section><br />
+
+
+            <div class="text-center"><h3 class="mb-0"><a target="_blank" href="https://github.com/Josh-Cathey/Dropshipping">eCommerce Web App - Team Sports Northwest</a></h3></div> <br />
+            <!-- Dropshipping Project Area -->
+            <div class="row justify-content-center">
+                <!-- Portfolio Items-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/teamSportsNW.PNG" alt="Team Sports NW Ecommerce Site" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/teamSportsNWLogin.PNG" alt="Team Sports NW Login Page" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/teamSportsNWCart.PNG" alt="Team Sports NW Cart" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/teamSportsNWMgrDash.PNG" alt="Team Creation Request" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/teamSportsNWAdminIndex.PNG" alt="Admin Index Manager" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/teamSportsNWAwaitingRequests.PNG" alt="Admin - View Awaiting Team Requests" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Description Area -->
+            <div class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <p class="mb-5">
+                                This e-commerce web app was developed by my Capstone 2020 team for Direct Kick Soccer Shop in Eugene, OR. 
+                                Our client needed a site that functioned as a standard e-commerce platform, one that also allowed local 
+                                teams to come and build their own team page on the website. The team page displays items for sale listed by 
+                                the team, including uniforms, hoodies, hats, and other custom printed specialty clothing. The site was built 
+                                using ASP.NET Core 3.1. Some of the features for this site include a cart system, checkout using PayPal,
+                                account management, team management, ASP.NET Identity, and custom roles have been established for account management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Languages and Technologies -->
+        <section class="skills">
+            <div class="container">
+                <!-- Experience Grid Items-->
+                <div class="row justify-content-center">
+                    <div class="flex-grow-0">
+                        <div class="masthead-subheading mb-3">Languages</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                C#
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                JavaScript
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                SQL
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                HTML
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                CSS
+                            </li>
+                        </ul>
+                    </div><br />
+                    <div class="flex-grow-0" style="padding-left: 60px;">
+                        <div class="masthead-subheading mb-3">Technologies</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                ASP.NET Core 3.1
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                ASP.NET Core Identity
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Entity Framework
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                LINQ
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Blazor
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Dependency Injection
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Bootstrap
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section><br /><br />
+
+        <div class="masthead-subheading mb-3 text-center">
+            <strong>See more projects on my <a target="_blank" href="https://github.com/Josh-Cathey">GitHub</a>!</strong>
+        </div>
+
+    </section>
+
+
+   
 
 
     <section class="page-section skills" id="skills">
@@ -176,7 +584,15 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
+                            PL/SQL
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
                             MySQL
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            LINQ
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -269,147 +685,6 @@
         </div>
     </section>
 
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-            <!-- Portfolio Section Heading-->
-            <div class="text-center">
-                <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PROJECTS</h2>
-            </div>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-            </div>
-
-
-            <!-- Portfolio Grid Items-->
-            <div class="row justify-content-center">
-                <!-- Portfolio Items-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="~/assets/img/portfolio/ocdlaMaps.PNG" alt="An Oregon Criminal Defense Lawyers
-                                   Association Themed Map" />
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/soccerFans.PNG" alt="A Site for Soccer Fans!" />
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/teamSportsNW.PNG" alt="Team Sports NW Ecommerce Site" />
-                    </div>
-                </div>
-                <div class="masthead-subheading mb-3">See more projects on my <a target="_blank" href="https://github.com/Josh-Cathey">GitHub</a>!</div>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio Modal-->
-    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content bg-primary">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary mb-0">OCDLA Map Feature</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="~/assets/img/portfolio/ocdlaMaps.PNG" alt="An Oregon Criminal Defense Lawyers
-                                   Association Themed Map" />
-                                <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">
-                                    A Google map I developed for the Oregon Criminal Defense Lawyers Association as a Full-Stack Developer Intern.
-                                    This map feature is styled using OCDLA colors and themes. I created custom marker icons that are used to display
-                                    multiple layers of data to the user.  These different layers of data include locations of current OCDLA members and
-                                    circuit courts in Oregon. See the live feature <a target="_blank" href="https://ocdla.app/maps">here</a>.
-                                </p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content bg-primary">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary mb-0">Soccer Fans</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/soccerFans.PNG"
-                                                                    alt="A Site for Soccer Fans" />
-                                <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">
-                                    A community soccer fan site I developed for the final of my Web Development 2: ASP.NET course at Lane Community College.
-                                    Users can create an account, comment on popular videos, create forum posts for other users, comment on forum posts,
-                                    as well as browse user profiles. The site has integrated roles for administrators and is using ASP.NET Identity for
-                                    account management. See the project <a target="_blank" href="https://github.com/Josh-Cathey/SoccerFans">here</a>.
-                                </p>
-
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content bg-primary">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary mb-0">
-                                    Team Sports NW <br />E-commerce
-                                </h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/teamSportsNW.PNG" alt="E-commerce Web App" />
-                                <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">
-                                    This e-commerce site was developed by my Capstone 2020 team. Our client for this project owns
-                                    a local sports store that specializes in printing services. He needed a site that functioned as a standard e-commerce
-                                    platform, but one that also allowed local teams to come and build their own team page on the website. The team page
-                                    displays items for sale listed by the team, including uniforms, hoodies, hats, and other custom printed specialty clothing. The site
-                                    was built using ASP.NET Core 3.1. Some of the features for this site include a cart system, checkout using PayPal,
-                                    account management, team management, ASP.NET Identity, and custom roles have been established for account management.
-                                    See the project <a target="_blank" href="https://github.com/Josh-Cathey/Dropshipping">here</a>.
-                                </p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <section class="page-section education" id="education">
         <div class="container">

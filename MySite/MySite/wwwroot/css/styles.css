@@ -6508,8 +6508,8 @@ button.bg-dark:focus {
 
 .flex-grow-0 {
     flex-grow: 0 !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .flex-grow-1 {
@@ -10045,7 +10045,7 @@ h3 {
   }
 }
 .portfolio .portfolio-item {
-  cursor: pointer;
+  /*cursor: pointer;*/
   position: relative;
   display: block;
   max-width: 25rem;
