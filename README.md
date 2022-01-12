@@ -1,3 +1,3 @@
 # ResumeSite
 
-View the live site at https://www.joshcathey.com
+View the live site at http://www.joshcathey.com
